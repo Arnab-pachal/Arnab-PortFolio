@@ -150,7 +150,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2020 - April 2021",
     points: [
-      "Haridasnagar,Raghunathganj,Murshidabad,West Bengal,742225",
+      "Haridasnagar,Murshidabad,West Bengal,742225",
       "percentage : 99.2 %"
     ],
   }
