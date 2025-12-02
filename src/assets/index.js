@@ -1,4 +1,4 @@
-import logo from "./logo.jpeg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -14,6 +14,7 @@ import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
+import java from "./tech/java.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -25,7 +26,7 @@ import threejs from "./tech/threejs.svg";
 import Clan from "./tech/c++.png";
 import jupiternotebook from "./tech/Jupyter_logo.svg.png";
 import redis from './tech/redis.png';
-
+import Amtapitambar from  "./Amtapitambarhighschool.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -53,6 +54,7 @@ export {
   figma,
   git,
   html,
+  java,
   javascript,
   mongodb,
   nodejs,
@@ -69,8 +71,7 @@ export {
   jobit,
   tripguide,
   blockchain,
-  jangipurschool,
-  ramkrishnaschool,
+  Amtapitambar,
   nitdgplogo,
   redis,
   jupiternotebook,

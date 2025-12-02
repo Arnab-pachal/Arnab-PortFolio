@@ -6,6 +6,7 @@ import {
   javascript,
   typescript,
   html,
+  java,
   css,
   reactjs,
   redux,
@@ -25,8 +26,7 @@ import {
   threejs,
   deeplearning,
   blockchain,
-  jangipurschool,
-  ramkrishnaschool,
+  Amtapitambar,
   nitdgplogo,
   Clan,
   jupiternotebook,
@@ -69,8 +69,8 @@ const services = [
 
 const technologies = [
   {
-    name:"C/C++",
-    icon: Clan,
+    name:"Java",
+    icon: java,
   },
   {
     name: "HTML 5",
@@ -127,31 +127,31 @@ const experiences = [
     date: "Aug 2023 - present",
     points: [
       "Mahatma Gandhi Rd, A-Zone, Durgapur, West Bengal 713209",
-      "CGPA : 9.62/10.0"
+      "CGPA : 8.98/10.0"
     ],
   },
   
   {
     title: "Higher Secondary Exam class(12th)",
-    company_name: "Jangipur High School",
+    company_name: "Amta Pitambar High School",
     // company_name: "Tesla",
-    icon: jangipurschool,
+    icon: Amtapitambar,
     iconBg: "#383E56",
-    date: "April 2021 - April 2023",
+    date: "April 2020 - April 2022",
     points: [
-      "Chhota kalia, Jangipur, West Bengal 742213",
-      "Precentage : 91.2 %"
+      "Amta, Howrah, West Bengal 742213",
+      "Precentage : 94%"
     ],
   },
   {
     title: "Secondary Exam class(10th)",
-    company_name: "Sri Ramkrishna Siksha Niketan",
-    icon: ramkrishnaschool,
+    company_name: "Amta Pitambar High School",
+    icon: Amtapitambar,
     iconBg: "#383E56",
-    date: "Jan 2020 - April 2021",
+    date: "Jan 2019 - April 2020",
     points: [
-      "Haridasnagar,Murshidabad,West Bengal,742225",
-      "percentage : 99.2 %"
+      "Amta, Howrah, West Bengal 742213",
+      "percentage : 95%"
     ],
   }
 ];
@@ -185,9 +185,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "School Management System",
+    name: "Event Management System",
     description:
-      "The project is a comprehensive website for Sri Ramkrishna Siksha Niketan (SRSN), developed to provide an interactive and informative platform for students, teachers, alumni, and visitors.",
+      "A platform that allows admins to launch events, manage teams, automate account creation, and handle PPT submissions. It features secure authentication and real-time chat using Socket.IO, with planned enhancements including improved UI and integrated video conferencing.",
     tags: [
       {
         name: "react",
@@ -205,13 +205,10 @@ const projects = [
         name: "express",
         color: "orange-text-gradient",
       },
-      {
-        name:"redis",
-        color: "white-text-gradient",
-      }
+    
     ],
-    image: "https://i.ibb.co/212g4Gmj/1730994894696.jpg",
-    source_code_link: "https://sriramkrishnasikshaniketan.me/source",
+    image: "https://image2url.com/images/1764649394284-7d91a1db-cf1d-4590-aa67-28edf9fe31c3.png",
+    source_code_link: "https://techmela.vercel.app/",
   },
   {
     name: "Centrality Detection using Deep Learning ",
@@ -232,32 +229,25 @@ const projects = [
       }
     ],
     image: "https://www.networkpages.nl/wp-content/uploads/2023/05/Closeness.png",
-    source_code_link: "https://github.com/sandipto729/Social-Network",
+    source_code_link: "https://github.com/Arnab-Pachal1234/Social-Network",
   },
   {
-    name: "Hospital Management System",
+    name: "Text File Compressor",
     description:
-      "Built a hospital management system where patients can find nearby hospitals, book appointments, and make payments.Integrated video calling using Jitsi for remote consultations and payment processing via Razorpay and Stripe",
+      "Huffman-based text compression and decompression system with binary encoding, bit-level operations, and custom header serialization. Ensures lossless decoding via tree reconstruction and has separate compressor and decoder programs for modularity",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Algorithms",
         color: "green-text-gradient",
       },
-      {
-        name: "node.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "express",
-        color: "orange-text-gradient",
-      },
+     
     ],
-    image: "https://slchc.edu/wp-content/uploads/2022/07/hospital-manager-with-nurse-min-scaled-2560x1280.jpeg",
-    source_code_link: "https://medmanages.netlify.app/",
+    image: "https://image2url.com/images/1764650400548-6696a2ed-6463-496f-a2f4-38b7ffad42b8.png",
+    source_code_link: "https://github.com/Arnab-pachal/FileCompressor",
   },
 ];
 

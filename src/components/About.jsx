@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a CSE student at NIT Durgapur and a passionate MERN stack developer with a keen interest in Deep Learning, especially Graph Convolutional Networks (GCN) and Graph Neural Networks (GNN). I specialize in full-stack web development and have worked on various projects, including school management systems, e-commerce platforms, and alumni verification systems. I'm also exploring blockchain development with Motoko to expand my skill set.
+       
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
